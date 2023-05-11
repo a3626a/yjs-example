@@ -12,7 +12,7 @@ window.addEventListener("load", () => {
   const ydoc = new Y.Doc();
   const provider = new WebsocketProvider(
     "wss://demos.yjs.dev",
-    "quill-demo-4sdf",
+    "quill-demo-4",
     ydoc
   );
   const ytext = ydoc.getText("quill");
